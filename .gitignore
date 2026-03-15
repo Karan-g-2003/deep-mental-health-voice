@@ -1,0 +1,37 @@
+# Data (large files – not committed)
+data/AUDIO/
+data/TRANSCRIPTS/
+data/Cleaned_Audio/
+data/Denoised_Audio/
+data/Spectrograms_Optimized/
+data/ViT_Results/
+data/*.csv
+data/*.xls*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Models / large outputs
+*.pth
+*.pt
+*.npy
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
